@@ -1,0 +1,35 @@
+Link and a guardian are standing in a triangle on the coordinate plane whose vertices are 
+. The guardian is located at point 
+.
+
+The guardian faces in the direction of the line with equation 
+, where 
+ and 
+ are positive integers. Then, the guardian fires a laser which reflects off the triangle’s walls. If the laser hits a corner of the triangle, it stops.
+
+Since the path of the laser can be very unpredictable, Link has decided to position himself at only point 
+ or point 
+. Can you help Link choose one of these points so that he does not get hit by the laser? It can be shown that at least one of these points will be safe.
+
+Input
+Each test contains multiple test cases. The first line contains a single integer 
+ (
+), the number of test cases. The description of the test cases follows.
+
+The first and only line of each test case contains two space-separated integers 
+ and 
+ (
+), the coefficients of the line that the guardian shoots in the direction of.
+
+Output
+For each testcase, print a single character on its own line: A or B. If multiple possible answers exist, output any.
+
+Sample Input 1	
+3
+1 1
+1 2
+2 2
+Sample Output 1
+A
+A
+B
