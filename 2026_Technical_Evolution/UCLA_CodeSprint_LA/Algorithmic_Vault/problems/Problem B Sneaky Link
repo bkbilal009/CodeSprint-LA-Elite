@@ -1,0 +1,52 @@
+Link needs to enter Gerudo Town in order to complete a quest. However, since only women are permitted to enter, he needs a disguise in order to pass.
+
+Link has 
+ clothing fragments, each with disguise level 
+. Link can select an outfit by using any subset of the fragments.
+
+The overall sneakiness of an outfit is the sum of disguise levels over all clothing fragments in the outfit. Link wants to know the maximum overall value that he can obtain over all possible outfits.
+
+Furthermore, Link discovered that turning a fragment inside out negates its disguise level. However, wearing inside-out clothes is controversial. For some 
+ (
+), the first inverted fragment will decrease the overall disguise level by 
+, the second by 
+, the third by 
+, and so on.
+
+Compute the maximum overall sneakiness Link can obtain.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases 
+ (
+). The description of the test cases follows.
+
+The first line of each test case contains two space-separated integers 
+ and 
+ (
+, 
+), the number of clothing fragments and the penalty constant for inverted fragments.
+
+The next line contains 
+ space-separated integers 
+ (
+), the disguise levels of each clothing fragment.
+
+The sum of 
+ over all test cases is guaranteed to not exceed 
+.
+
+Output
+For each test case, print the maximum overall sneakiness Link can obtain.
+
+Sample Input 1	
+3
+5 2
+10 -5 -8 3 -1
+4 0
+-10 -20 -30 -40
+3 100
+-10 -5 20
+Sample Output 1
+20
+100
+2
