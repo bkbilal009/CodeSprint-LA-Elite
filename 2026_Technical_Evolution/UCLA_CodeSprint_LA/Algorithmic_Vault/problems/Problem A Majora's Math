@@ -1,0 +1,61 @@
+Problem A
+Majora's Math
+/problems/majorasmath/file/statement/en/img-0001.png
+Majora’s mask
+Link is trying to take down Majora, who starts with 
+ health points. Link has already landed 
+ arrows on Majora. Link has 
+ types of arrows: standard, fire, ice, and light, with each arrow type doing 
+, 
+, 
+, and 
+ damage to Majora, respectively.
+
+Link remembers which arrows he landed, but in the heat of the battle, he is unable to calculate how much health Majora has left. Please help him figure this out!
+
+Input
+The first line contains two space-separated integers 
+ (
+) and 
+ (
+), Majora’s starting health and the number of arrows Link has landed.
+
+The second line contains four space-separated integers 
+, 
+, 
+, 
+ (
+), the damage a standard, fire, ice, and light arrow does respectively.
+
+Each of the next 
+ lines contains one of the four strings standard, fire, ice, and light, a specific type of arrow that Link has landed.
+
+Output
+Output the amount of health points Majora has left after all arrows have landed. If Majora has less than or equal to 
+ health points remaining, output the lowercase string dead.
+
+Sample Input 1	
+14 4
+2 4 4 4
+standard
+fire
+ice
+light
+Sample Output 1
+dead
+---
+Sample Input 2	
+100 10
+7 4 4 6
+ice
+standard
+fire
+ice
+ice
+light
+fire
+fire
+standard
+fire
+Sample Output 2
+52
